@@ -5,8 +5,6 @@ Supports **MP3 and FLAC**, single-file transfers, and batch processing with auto
 
 This tool is ideal if you’ve re-encoded your library or downloaded cleaner audio files but want to **preserve the original tags** — title, artist, album, composer, etc.
 
----
-
 ## Features
 
 - Copy metadata from one track to another
@@ -22,8 +20,6 @@ Supported formats:
 - MP3 (`EasyID3`)
 - FLAC (`mutagen.flac.FLAC`)
 
----
-
 ## Requirements
 
 Python **3.8+**
@@ -32,8 +28,6 @@ Dependencies (installed automatically):
 
 - `streamlit`
 - `mutagen`
-
----
 
 ## Installation
 
