@@ -1,5 +1,5 @@
 [project]
-name = "song-metadata-copier"
+name = "song-metadata-transfer-tool"
 version = "1.0.0"
 description = "A Streamlit application to copy and adapt song metadatas. Supports single file and batches"
 authors = [
@@ -33,15 +33,15 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/gabrielofavero/song-metadata-copier"
-Repository = "https://github.com/gabrielofavero/song-metadata-copier"
+Homepage = "https://github.com/gabrielofavero/song-metadata-transfer-tool"
+Repository = "https://github.com/gabrielofavero/song-metadata-transfer-tool"
 
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = ["drum-tracker-sorter"]
+py-modules = ["song-metadata-transfer-tool"]
 
 [tool.black]
 line-length = 120

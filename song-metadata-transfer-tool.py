@@ -6,7 +6,7 @@ import streamlit as st
 from mutagen.flac import FLAC
 from mutagen.easyid3 import EasyID3
 
-st.set_page_config(page_title="Track Metadata Transfer", layout="centered")
+st.set_page_config(page_title="Song Metadata Transfer Tool", layout="centered")
 
 st.title("🎶 Song Metadata Transfer Tool")
 
